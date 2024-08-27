@@ -97,7 +97,7 @@ typedef std::complex<float> compFloat_t;
 #define BS_II 1  // Second stage II
 #define FS_II 1  // First stage II
 #define MF_II 1  // Matrix filter II
-#define GM_II 1  // Generate matrix II
+#define GM_II 12  // Generate matrix II
 #define CE_II 1  // Channel estimation II
 
 #define NUM_DATA_SUBC 14  // Number of data subcarriers

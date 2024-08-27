@@ -50,7 +50,7 @@ The DSE framework automates the process of exploring different hardware configur
 
 ```sh
 # Clone the repository
-git clone <repository_url>
+git clone http://github.com/rockyco/autoDSE
 cd <repository_directory>
 
 # Run the automated DSE framework
