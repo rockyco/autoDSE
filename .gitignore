@@ -1,0 +1,25 @@
+# Ignore log files
+results.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore compiled files
+*.o
+*.out
+*.class
+
+# Ignore directories
+calcGramMatrix/proj_calcMatrixRhth/
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
