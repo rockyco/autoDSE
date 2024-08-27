@@ -17,7 +17,7 @@ while {[gets $file line] >= 0} {
 close $file
 
 # Print the extracted value
-puts $total_latency"
+puts $total_latency
 
 # Return the extracted value
 return $total_latency
