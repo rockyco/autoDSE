@@ -9,9 +9,9 @@ set param2_range {1}
 # First stage II
 set param3_range {1}
 # Matched filter II
-set param4_range {1 2 4 6 8 10 12}
+set param4_range {1}
 # Gram matrix II
-set param5_range {1}
+set param5_range {1 2 4 6 8 10 12}
 # Channel estimation II
 set param6_range {1}
 
