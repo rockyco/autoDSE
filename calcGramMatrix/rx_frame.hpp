@@ -91,7 +91,7 @@ typedef std::complex<float> compFloat_t;
 
 #define NUM_ANT 8  // Number of antennas
 #define NUM_CHOLS 4  // Number of Cholesky decomposition kernels
-#define NUM_FFT_PE 4  // Number of FFT kernels
+#define NUM_FFT_PE 1  // Number of FFT kernels
 #define NUM_FFT_REUSED (NUM_ANT / NUM_FFT_PE)  // Number of FFT kernels reused
 
 #define BS_II 1  // Second stage II

@@ -1,5 +1,6 @@
 # Ignore log files
 results.log
+vitis_hls.log
 
 # Ignore temporary files
 *.tmp

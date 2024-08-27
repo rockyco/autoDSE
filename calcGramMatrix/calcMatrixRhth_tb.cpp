@@ -32,6 +32,7 @@
 int main(void) {
     // Define the input and output data
     stream<comp18_t> matrixH[NUM_ANT];
+    uint8_t reguVal = 8;
     stream<comp18_t> reoMatrixH2calcQ[NUM_ANT];
     stream<MATRIX_IN_T> matrixRhth;
     compFloat_t matrixHBuf[NUM_ANT][NUM_LTS][NUM_USED_SUBC];
@@ -80,7 +81,7 @@ int main(void) {
     }
     fclose(fp_in_write);
     // Call the calcMatrixRxtx function
-    calcMatrixRhth(matrixH, reoMatrixH2calcQ, matrixRhth);
+    calcMatrixRhth(matrixH, reguVal, reoMatrixH2calcQ, matrixRhth);
 
     FILE *fp_out;
     // Write the output data to the .txt file
